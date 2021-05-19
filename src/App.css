@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #afd1d5ff;
+}
+
+body {
+  background-color: #222f4bff;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+input {
+  border: 2px solid #afd1d5ff;
+  height: 30px;
+  margin: 5px;
+  padding: 2%;
+  font-size: 20px;
+  background-color: transparent;
+  width: 300px;
+}
+
+::placeholder, input:focus {
+  color: #afd1d5ff;
+}
+
+button {
+  border: none;
+  background-color: #f636009a;
+  padding: 4px;
+  color: #afd1d5ff;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  width: 300px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+table {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: #222f4bff;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border: 2px solid #222f4bff;
+}
+
+th {
+  background-color: #afd1d5ff;
+  color: #222f4bff;
+}
+
+td {
+  font-size: 20px;
+  padding: 1%;
+  background-color: #afd1d5ff;
+  color: #222f4bff;
+}
+
+.courseName {
+  color: #afd1d5ff;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.tableInput {
+  background-color: transparent;
+  border: none;
+  width: auto;
+  font-size: 15px;
+  color: #222f4bff;
+}
+
+.tableButton {
+  color: #afd1d5ff;
+  background-color: #222f4bff;;
+  border: none;
+  width: auto;
+  padding-left: 1%;
+  font-size: 15px;
+}
+
+.tableInput::placeholder, .tableInput:focus {
+  color: #222f4bff;
+}
+
+.header {
+  background-color: #afd1d5ff;
+  text-align: left;
+  color: #222f4bff;
+  padding: 1%;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.addCourse {
+  text-align: center;
+  padding: 2%;
+}
+
+.course {
+  text-align: center;
+  align-content: center;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
